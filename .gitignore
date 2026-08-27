@@ -1,0 +1,46 @@
+# .gitignore — Substrate Repository
+
+# Private data directories (NEVER committed)
+GOVERNANCE/directors_register.md
+GOVERNANCE/private/
+PARTNERSHIPS/partner_registry.yaml
+PARTNERSHIPS/signed_mous/
+FINANCE/accounts/
+FINANCE/bank_statements/
+PILOT/pilot_results/
+OPERATIONS/ae_register/
+
+# Editor & OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment / secrets
+.env
+.env.local
+*.key
+*.pem
+secrets/
+
+# Node / Python (if added later)
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+
+# Build outputs
+dist/
+build/
+target/
+
+# Logs
+*.log
+logs/
+
+# Local planning (private notes)
+*_private.md
+*_local.md
+notes.md

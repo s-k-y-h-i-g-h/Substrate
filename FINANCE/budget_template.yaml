@@ -1,0 +1,115 @@
+# Annual Budget Template - Substrate CIC
+# File: budget_template.yaml
+# This file is a schema. Copy and fill values per fiscal year.
+# Currency: GBP
+# Basis: Accrual for CIC filing; cash for pilot tracking
+
+template_version: 1.0
+template_date: 2026-08-27
+
+metadata:
+  currency: GBP
+  fiscal_year: null  # fill with year, e.g. 2027
+  basis: accrual  # or 'cash' for pilot tracking
+
+revenue:
+  public_donations_uk:
+    amount: 0
+    source: "Stripe/Gocardless + Gift Aid fiscal host"
+    notes: "Includes Gift Aid top-up"
+  public_donations_international:
+    amount: 0
+    source: "Stripe/Gocardless direct (no Gift Aid)"
+    notes: "US tax benefit via fiscal sponsor"
+  grants_trusts_foundations:
+    amount: 0
+    notes: "Restricted to specific activities per grant agreement"
+  merch_protocol_licensing:
+    amount: 0
+    notes: "Protocol is CC-BY free; merch is voluntary support"
+
+revenue_total: 0  # = sum of revenue.*.amount
+
+expenditure:
+  core_programme:
+    core_5_sachets_bulk:
+      amount: 0
+      unit_basis: "£/person/month x N people x 12 months"
+    longevity_tier_addons:
+      amount: 0
+      notes: "Optional; pilot phase only if funded"
+    cognitive_tier_addons:
+      amount: 0
+      notes: "Optional; pilot phase only if funded"
+    packaging_labelling:
+      amount: 0
+    partner_coordination:
+      amount: 0
+      notes: "Travel, meeting time, admin support"
+    distribution_logistics:
+      amount: 0
+      notes: "Courier, Royal Mail, storage"
+  core_programme_subtotal: 0
+
+  operations:
+    ae_monitoring_medical_advisor_retainer: 0
+    legal_governance_cic_filing_annual_return: 0
+    accounting_bookkeeping: 0
+    insurance_d_and_o_product_liability_git: 0
+    bank_payment_processor_fees: 0
+    software_hosting_github_domain_email: 0
+  operations_subtotal: 0
+
+  people:
+    director_remuneration:
+      amount: 0
+      notes: "Per articles clause 1; transparent, reasonable"
+    employer_ni_pension: 0
+    contractor_freelance_support: 0
+  people_subtotal: 0
+
+expenditure_total: 0  # = sum of all subtotals
+
+surplus_deficit: 0  # = revenue_total - expenditure_total
+asset_lock_requirement: "Any surplus reinvested in objects or passed to asset-lock recipient. No distribution to members."
+
+# Pilot Budget (Year 0)
+pilot_budget:
+  core_5_100_people_1_month: 140
+  packaging_labels: 60
+  partner_coordination: 100
+  ae_buffer: 100
+  contingency_admin: 50
+  pilot_total: 450  # sum of above; allowed slippage up to 500
+
+# Cash Flow - Pilot
+pilot_cash_flow:
+  m0_pre_pilot:
+    inflow_donations: 0
+    outflow_stock_order: 0
+    cumulative: 0
+  m1_pilot_go_live:
+    inflow: 0
+    outflow_packing_distribution: 0
+    cumulative: 0
+  m2:
+    inflow: 0
+    outflow_distribution_partner_checkin: 0
+    cumulative: 0
+  m3:
+    inflow: 0
+    outflow_final_distribution_tally: 0
+    cumulative: 0
+  m4:
+    inflow: 0
+    outflow_writeup_debrief: 0
+    cumulative: 0
+
+maintenance:
+  owner: "Director(s)"
+  review_cycle: "Quarterly, minuted at board meeting"
+  filing: "CIC annual return (CIC34) + Companies House accounts"
+
+#
+# Changelog
+# 1.0 - 2026-08-27 - Initial template

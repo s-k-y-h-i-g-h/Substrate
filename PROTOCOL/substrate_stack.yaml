@@ -1,0 +1,135 @@
+version: 0.1
+last_updated: 2026-08-27
+maintainer: substrate-board@substrate.org.uk  # placeholder
+
+
+tiers:
+  - id: core_5
+    label: Core 5 -- Nutritional Baseline
+    daily_dose_unit: sachet
+
+    ingredients:
+      - id: d3_k2
+        display_name: Vitamin D3 + K2 (MK-7)
+        dose_per_unit: "2000 IU D3 + 100 mcg K2 MK-7"
+        form: softgel_or_tablet
+        evidence_tier: T2
+        contraindications:
+          - hypercalcaemia
+          - granulomatous_disease
+          - warfarin
+        storage: room_temp_dry
+        shelf_life_months: 24
+        target_unit_cost_gbp: 0.12
+
+      - id: magnesium_glycinate
+        display_name: Magnesium glycinate
+        dose_per_unit: "200 mg elemental Mg"
+        form: tablet_or_capsule
+        evidence_tier: T2
+        contraindications:
+          - renal_impairment_eGFR_below_30
+          - complete_heart_block
+        storage: room_temp_dry
+        shelf_life_months: 36
+        target_unit_cost_gbp: 0.10
+
+      - id: omega3_epa_dha
+        display_name: Omega-3 EPA/DHA
+        dose_per_unit: "1000 mg total EPA+DHA (min 500 EPA / 300 DHA)"
+        form: softgel
+        evidence_tier: T2
+        contraindications:
+          - anticoagulant_use
+          - shellfish_allergy
+        storage: room_temp_dry  # algal oil variant for vegans
+        shelf_life_months: 24
+        target_unit_cost_gbp: 0.25
+
+      - id: b_complex_methylated
+        display_name: B-Complex (methylated)
+        dose_per_unit: "5-MTHF 400mcg / P5P 25mg / methylcobalamin 500mcg / R5P 25mg"
+        form: tablet_or_capsule
+        evidence_tier: T2
+        contraindications:
+          - high_dose_B6_longterm_note  # this formulation stays well below neuropathy threshold
+        storage: room_temp_dry_light_sensitive
+        shelf_life_months: 24
+        target_unit_cost_gbp: 0.15
+
+      - id: creatine_monohydrate
+        display_name: Creatine monohydrate (micronised)
+        dose_per_unit: "3000 mg"
+        form: powder_or_capsule
+        evidence_tier: T2
+        contraindications:
+          - renal_impairment
+        storage: room_temp_dry
+        shelf_life_months: 36
+        target_unit_cost_gbp: 0.08
+
+  - id: longevity
+    label: Longevity
+    daily_dose_unit: individual
+
+    ingredients:
+      - id: nac
+        display_name: N-Acetylcysteine (NAC)
+        dose_per_unit: "600 mg"
+        evidence_tier: T3
+        contraindications:
+          - activated_charcoal_concurrent
+          - asthma_rare
+        target_unit_cost_gbp: 0.08
+
+      - id: glycine
+        display_name: Glycine
+        dose_per_unit: "3000 mg"
+        evidence_tier: T3
+        target_unit_cost_gbp: 0.05
+
+      - id: taurine
+        display_name: Taurine
+        dose_per_unit: "1000 mg"
+        evidence_tier: T3
+        target_unit_cost_gbp: 0.04
+
+      - id: spermidine
+        display_name: Spermidine (wheat germ extract)
+        dose_per_unit: "1 mg"
+        form: capsule
+        note: rice-derived alternative available for wheat-allergic recipients
+        evidence_tier: T3
+        target_unit_cost_gbp: 0.18
+
+  - id: cognitive
+    label: Cognitive
+
+    ingredients:
+      - id: cdp_choline
+        display_name: CDP-Choline (Citicoline)
+        dose_per_unit: "250 mg"
+        evidence_tier: T3
+        contraindications:
+          - trimethylaminuria
+        target_unit_cost_gbp: 0.12
+
+      - id: alcar
+        display_name: Acetyl-L-Carnitine (ALCAR)
+        dose_per_unit: "500 mg"
+        evidence_tier: T3
+        contraindications:
+          - thyroid_hormone_sensitivity  # may increase T3/T4 potency
+        target_unit_cost_gbp: 0.10
+
+      - id: lions_mane
+        display_name: Lion's Mane (standardised extract, min 30% beta-glucans)
+        dose_per_unit: "500 mg"
+        form: capsule_or_powder
+        note: anticoagulant_use_caution
+        evidence_tier: T4
+        target_unit_cost_gbp: 0.15
+
+#
+# Changelog
+# 0.1.0 -- 2026-08-27 -- Initial formulation
