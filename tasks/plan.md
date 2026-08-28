@@ -1,0 +1,169 @@
+# Task Plan — Substrate Phase 1
+
+## Overview
+
+Phase 1 decomposes the success criteria into discrete, trackable tasks. Each task is completable in a single focused session. Dependencies are sequential where they must be; parallel where they can be.
+
+---
+
+## Task Dependency Graph
+
+```
+T01: Choose CIC registered office address
+T02: File Companies House CIC36 (depends on T01)
+T03: Open business bank account (depends on T02)
+T04: Identify first partner organisation
+T05: Negotiate and sign MOU (depends on T04)
+T06: Request supplier quotes for Core 5 ingredients (depends on T05)
+T07: Negotiate supplier terms / CoA requirements (depends on T06)
+T08: Place order for Core 5 sachets (depends on T07)
+T09: Pack and label pilot kits (depends on T08)
+T10: Conduct partner training session (depends on T09)
+T11: Execute first distribution week (depends on T10)
+T12: Collect uptake data and AE reports (depends on T11)
+T13: Write pilot results (depends on T12)
+T14: Decide Phase 2 scope (depends on T13)
+```
+
+---
+
+## Task List
+
+### T01: Choose CIC registered office address
+
+- **Acceptance:** Physical address decided; email and phone for Companies House filing
+- **Verify:** Address confirmed by user
+- **Files:** (none)
+
+### T02: File Companies House CIC36
+
+- **Acceptance:** Companies House public record shows Substrate CIC, status "Active", with CIC36 objects clause and articles filed
+- **Verify:** Companies House web search returns active CIC record
+- **Files:** `GOVERNANCE/CIC36_objects_clause.md`, `GOVERNANCE/articles_clauses.md`
+- **Dependencies:** T01
+
+### T03: Open business bank account
+
+- **Acceptance:** Bank provides account number; Sort Code; SWIFT/BIC
+- **Verify:** Can receive and transfer funds
+- **Files:** (none)
+- **Dependencies:** T02
+
+### T04: Identify first partner organisation
+
+- **Acceptance:** Name, location, and contact person confirmed; partner meets eligibility criteria
+- **Verify:** Partner confirms interest; MOU signed within 2 weeks
+- **Files:** `PARTNERSHIPS/partner_registry.yaml` (to be created)
+- **Dependencies:** (none)
+
+### T05: Negotiate and sign MOU
+
+- **Acceptance:** Signed MOU returned; partner agrees to 12-month term, data terms, AE reporting
+- **Verify:** Signed PDF in repo or partner confirmation email
+- **Files:** `PARTNERSHIPS/` MOU files
+- **Dependencies:** T04
+
+### T06: Request supplier quotes for Core 5 ingredients
+
+- **Acceptance:** Quotes received for 5 Core 5 ingredients at stated bulk volumes
+- **Verify:** Minimum 3 quotes per ingredient; all within cost targets
+- **Files:** `PROCUREMENT/` (directory to be created)
+- **Dependencies:** T05
+
+### T07: Negotiate supplier terms / CoA requirements
+
+- **Acceptance:** Supplier confirms CoA per batch; shelf life >60 days on receipt; bulk pricing locked
+- **Verify:** Written supplier agreement or email confirmation
+- **Files:** `PROCUREMENT/`
+- **Dependencies:** T06
+
+### T08: Place order for Core 5 sachets
+
+- **Acceptance:** Purchase order placed; invoice received; per-unit cost confirmed within target
+- **Verify:** Invoice shows actual per-unit cost < target for each ingredient
+- **Files:** `FINANCE/accounts/`
+- **Dependencies:** T07
+
+### T09: Pack and label pilot kits
+
+- **Acceptance:** 100 monthly kits packed; each with 30 daily sachets; labels printed; batch codes and expiry visible
+- **Verify:** Physical inspection; photo documentation
+- **Files:** `PILOT/`
+- **Dependencies:** T08
+
+### T10: Conduct partner training session
+
+- **Acceptance:** Training log completed (date, who attended, topics covered)
+- **Verify:** Training log signed by partner staff
+- **Files:** `PILOT/` training log
+- **Dependencies:** T09
+
+### T11: Execute first distribution week
+
+- **Acceptance:** First distribution week completed; tally sheets returned; any AE incidents logged
+- **Verify:** Tally sheets in repo; AE register entry (or zero-events confirmation)
+- **Files:** `PILOT/` pilot log
+- **Dependencies:** T10
+
+### T12: Collect uptake data and AE reports
+
+- **Acceptance:** All monthly data collected; AE register updated; partner de-brief conducted
+- **Verify:** Data completeness check; partner sign-off on data return
+- **Files:** `PILOT/` pilot log; `OPERATIONS/` AE register
+- **Dependencies:** T11
+
+### T13: Write pilot results
+
+- **Acceptance:** `PILOT/pilot_results.md` written and committed; includes uptake rates, AE summary, cost per person, partner feedback
+- **Verify:** File exists in repo; content covers all success criteria
+- **Files:** `PILOT/pilot_results.md`
+- **Dependencies:** T12
+
+### T14: Decide Phase 2 scope
+
+- **Acceptance:** Decision made: proceed to 3-month / 3-site Phase 2, or pause for iteration
+- **Verify:** Board decision recorded (minutes or email)
+- **Files:** `PILOT/`
+- **Dependencies:** T13
+
+---
+
+## Task Status
+
+| Task | Title | Status |
+|------|-------|--------|
+| T01 | Choose CIC registered office address | [ALERT] Not started |
+| T02 | File Companies House CIC36 | Not started |
+| T03 | Open business bank account | Not started |
+| T04 | Identify first partner organisation | Not started |
+| T05 | Negotiate and sign MOU | Not started |
+| T06 | Request supplier quotes for Core 5 | Not started |
+| T07 | Negotiate supplier terms / CoA | Not started |
+| T08 | Place order for Core 5 sachets | Not started |
+| T09 | Pack and label pilot kits | Not started |
+| T10 | Conduct partner training session | Not started |
+| T11 | Execute first distribution week | Not started |
+| T12 | Collect uptake data and AE reports | Not started |
+| T13 | Write pilot results | Not started |
+| T14 | Decide Phase 2 scope | Not started |
+
+---
+
+## Parallelism Notes
+
+- T01–T03 are sequential (formation dependencies)
+- T04–T05 can run in parallel with T01–T03 (partnership is independent of CIC formation)
+- T06–T08 are sequential (quotes → negotiate → order)
+- T09–T11 are sequential (pack → train → distribute)
+- T12–T14 are sequential (collect → write → decide)
+- T04/T05 and T01/T02/T03 can proceed in parallel
+
+---
+
+## Definition of Done (per task)
+
+Each task is complete when:
+1. All acceptance criteria are met
+2. Relevant files are updated or created in the repo
+3. The task status is moved to [OK] in this table
+4. No blocking issues remain for dependent tasks
