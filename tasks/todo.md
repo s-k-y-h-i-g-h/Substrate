@@ -7,6 +7,7 @@ All tasks tracked here. Mark [OK] when complete.
 ## Pre-launch (Admin)
 
 - [ ] **T01** Choose CIC registered office address
+- [ ] **T-pre02** Seek CIC filing guidance from support contacts (prior rejection review)
 - [ ] **T02** File Companies House CIC
 - [ ] **T03** Open business bank account
 

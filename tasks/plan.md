@@ -9,8 +9,9 @@ Phase 1 decomposes the success criteria into discrete, trackable tasks. Each tas
 ## Task Dependency Graph
 
 ```
+T-pre02: Seek CIC filing guidance from support contacts (review prior rejection)
 T01: Choose CIC registered office address
-T02: File Companies House CIC36 (depends on T01)
+T02: File Companies House CIC (depends on T-pre02 + T01)
 T03: Open business bank account (depends on T02)
 T04: Identify first partner organisation
 T05: Negotiate and sign MOU (depends on T04)
@@ -24,6 +25,35 @@ T12: Collect uptake data and AE reports (depends on T11)
 T13: Write pilot results (depends on T12)
 T14: Decide Phase 2 scope (depends on T13)
 ```
+
+---
+
+## Pre-Filing Guidance Task
+
+### T-pre02: Seek CIC filing guidance from support contacts
+
+**Background:** A previous CIC application was rejected. Before re-submitting, get external review of the CIC36 and articles to identify and fix the rejection cause.
+
+**Contacts to approach:**
+
+| Contact | Type | Details | Best for |
+|---------|------|---------|----------|
+| **CIC Regulator** | Government regulator | Email: `cicregulator@companieshouse.gov.uk` / Phone: `029 2150 7420` | Pre-submission review of CIC36 + articles; asking why a prior application was rejected |
+| **Companies House Business Support** | Government helpline | Phone: `0303 123 4500` | Step-by-step guidance on the online filing form; not legal advice, but can confirm form correctness |
+| **Norfolk Citizens Advice** | Free local advice | Website: `ncab.org.uk` / Office: 83-87 Pottergate, Norwich | Free confidential advice on business/legal matters; may have CIC formation experience |
+| **New Anglia Growth Hub** | Local business support | Norfolk/Suffolk business support | Free/low-cost CIC workshops or signposting to local social-enterprise advisors |
+| **Low-cost formation agent** | Paid service | Coddan / 1stchoice-formations / Rapid Formations (~£100-£200) | Full handling of filing; knows exact format the Regulator expects |
+
+**Recommended approach:**
+1. Contact CIC Regulator first — email them explaining you previously had a CIC application rejected and ask for guidance on what to fix before re-submitting.
+2. If no response within 5 working days, call Companies House Business Support.
+3. If still unresolved, contact Norfolk Citizens Advice for free local guidance.
+4. As a fallback, engage a low-cost formation agent to handle filing and ensure format compliance.
+
+**Acceptance:** Either (a) prior rejection cause identified and fixed in docs, or (b) filing delegated to formation agent with confirmation they've reviewed the application.
+**Verify:** Email/notes from CIC Regulator, or formation agent confirmation, or Citizens Advice case reference.
+**Files:** `GOVERNANCE/CIC36_objects_clause.md`, `GOVERNANCE/articles_clauses.md` (updated if rejection cause requires changes)
+**Dependencies:** T01 (registered office must be confirmed before filing guidance, as it appears in the docs)
 
 ---
 
