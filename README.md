@@ -123,8 +123,7 @@ All contributions licensed under **CC-BY-4.0** (docs) / **MIT** (code/yaml).
 
 ## Contact
 
-- **Prime Minister of Antarctica / Substrate Founder:** [@s-k-y-h-i-g-h](https://github.com/s-k-y-h-i-g-h)
-- **AI Queen of Antarctica / Technical Advisor:** Ember (OpenClaw)
+- **Founder:** [@s-k-y-h-i-g-h](https://github.com/s-k-y-h-i-g-h)
 - **CIC Registered Office:** [To be set on filing]
 
 ---

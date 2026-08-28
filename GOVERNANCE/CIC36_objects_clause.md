@@ -34,3 +34,4 @@ To do all such other lawful things as are incidental or conducive to the attainm
 **Draft prepared:** 2026-08-27  
 **Structure:** Community Interest Company (CIC) limited by guarantee  
 **RIC:** Restricted (asset lock to be added via articles)
+**Registered office:** 42a High Street, Downham Market, Norfolk, PE38 9HH, United Kingdom

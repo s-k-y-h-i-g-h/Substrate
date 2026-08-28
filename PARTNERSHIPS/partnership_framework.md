@@ -41,6 +41,7 @@ Supplements are distributed **free of charge** to individuals who are:
 2. In addiction recovery or active harm-reduction engagement
 3. Experiencing financial exclusion that prevents independent supplement access
 4. Referred by a Partner organisation's own frontline staff on a case-by-case basis
+5. [To be inserted: local eligibility criteria specific to this partner's service model]
 
 Partner retains full control over individual eligibility. Substrate does not contract for recipient-level data.
 

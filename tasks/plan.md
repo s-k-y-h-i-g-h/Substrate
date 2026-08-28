@@ -35,12 +35,20 @@ T14: Decide Phase 2 scope (depends on T13)
 - **Verify:** Address confirmed by user
 - **Files:** (none)
 
-### T02: File Companies House CIC36
+### T02: File Companies House CIC
 
-- **Acceptance:** Companies House public record shows Substrate CIC, status "Active", with CIC36 objects clause and articles filed
-- **Verify:** Companies House web search returns active CIC record
-- **Files:** `GOVERNANCE/CIC36_objects_clause.md`, `GOVERNANCE/articles_clauses.md`
-- **Dependencies:** T01
+**Process (online):**
+1. Go to `https://www.tax.service.gov.uk/register-your-company/setting-up-new-limited-company`
+2. Complete IN01 form: company name (ends in "CIC"), company type (limited by guarantee), registered office (42a High Street, Downham Market, PE38 9HH)
+3. Upload CIC36 as PDF — our text from `GOVERNANCE/CIC36_objects_clause.md`
+4. Upload Articles of Association as PDF — our text from `GOVERNANCE/articles_clauses.md`
+5. Pay £35 fee (online)
+6. Verify on Companies House public register
+
+**Acceptance:** Companies House public record shows Substrate CIC, status "Active", with CIC36 objects clause and articles filed
+**Verify:** Companies House web search returns active CIC record
+**Files:** `GOVERNANCE/CIC36_objects_clause.md`, `GOVERNANCE/articles_clauses.md`
+**Dependencies:** T01
 
 ### T03: Open business bank account
 

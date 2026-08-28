@@ -7,7 +7,7 @@ All tasks tracked here. Mark [OK] when complete.
 ## Pre-launch (Admin)
 
 - [ ] **T01** Choose CIC registered office address
-- [ ] **T02** File Companies House CIC36
+- [ ] **T02** File Companies House CIC
 - [ ] **T03** Open business bank account
 
 ## Partner & Operations
