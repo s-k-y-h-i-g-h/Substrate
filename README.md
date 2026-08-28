@@ -99,8 +99,8 @@ Substrate/
 | Milestone | Status | Target |
 |-----------|--------|--------|
 | GitHub repo initialised | ✓ Done | — |
-| Governance docs drafted | 🟡 In progress | Week 1 |
-| Protocol v0.1 published | 🟡 In progress | Week 1 |
+| SPEC.md written | ✓ Done | — |
+| Task plan created | ✓ Done | — |
 | CIC filed (Companies House) | ⬜ Pending | Week 2 |
 | Bank account opened | ⬜ Pending | Week 2 |
 | First partner MOU signed | ⬜ Pending | Week 3 |
