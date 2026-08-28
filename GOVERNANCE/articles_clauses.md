@@ -69,3 +69,6 @@ For custom articles filed alongside (or instead of) model articles. These are th
 These clauses are adapted from the UK CIC Association custom articles template and the Community Interest Company (Model Community Interest Company) Regulations 2013 (SI 2013/2423). Review by a solicitor with CIC experience is recommended before filing.
 
 **Draft prepared:** 2026-08-27
+**Last reviewed:** 2026-08-28
+**Registered office:** 42a High Street, Downham Market, Norfolk, PE38 9HH
+**Review by solicitor with CIC experience recommended before filing.**

@@ -101,7 +101,7 @@ Substrate/
 | GitHub repo initialised | ✓ Done | — |
 | SPEC.md written | ✓ Done | — |
 | Task plan created | ✓ Done | — |
-| CIC filed (Companies House) | ⬜ Pending | Week 2 |
+| CIC filed (Companies House) | 🟡 In progress | Week 2 |
 | Bank account opened | ⬜ Pending | Week 2 |
 | First partner MOU signed | ⬜ Pending | Week 3 |
 | £500 pilot executed | ⬜ Pending | Week 4–6 |

@@ -37,17 +37,19 @@ T14: Decide Phase 2 scope (depends on T13)
 
 ### T02: File Companies House CIC
 
-**Process (online):**
+**Process (online Companies House filing):**
 1. Go to `https://www.tax.service.gov.uk/register-your-company/setting-up-new-limited-company`
-2. Complete IN01 form: company name (ends in "CIC"), company type (limited by guarantee), registered office (42a High Street, Downham Market, PE38 9HH)
-3. Upload CIC36 as PDF — our text from `GOVERNANCE/CIC36_objects_clause.md`
-4. Upload Articles of Association as PDF — our text from `GOVERNANCE/articles_clauses.md`
-5. Pay £35 fee (online)
-6. Verify on Companies House public register
+2. Complete IN01 online form: company name "Substrate CIC", type (limited by guarantee), registered office (42a High Street, Downham Market, PE38 9HH)
+3. Upload CIC36 as PDF — text from `GOVERNANCE/CIC36_objects_clause.md`
+4. Upload Articles of Association as PDF — text from `GOVERNANCE/articles_clauses.md`
+5. Pay £115 filing fee (card)
+6. Complete identity verification ( Companies House requires this for new filings)
+7. Verify on Companies House public register
 
-**Acceptance:** Companies House public record shows Substrate CIC, status "Active", with CIC36 objects clause and articles filed
-**Verify:** Companies House web search returns active CIC record
-**Files:** `GOVERNANCE/CIC36_objects_clause.md`, `GOVERNANCE/articles_clauses.md`
+**Fee:** £115 online (not £35 — that's for annual CIC report filing)
+**Timeline:** 2-5 working days online, up to 15 working days by post
+
+**Acceptance:** Companies House public record shows Substrate CIC, status "Active", CIC36 objects clause and articles filed
 **Dependencies:** T01
 
 ### T03: Open business bank account
