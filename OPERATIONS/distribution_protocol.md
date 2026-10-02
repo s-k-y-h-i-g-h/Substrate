@@ -31,7 +31,31 @@
 
 - Partner follows its own eligibility criteria per Partnership Agreement
 - Substrate materials distributed in sealed sachets only
-- No Substrate product to be re-sold or given to persons outside eligible population without Substrate written consent
+
+## Redistribution beyond the partner site
+
+Substrate operates two limbs with different distribution rules.
+
+**Limb (a) — targeted supply, via partner.** Substrate product issued to a partner under a signed
+Partnership Agreement is distributed through that partner to eligible recipients within its stated
+eligibility criteria.
+
+**Free redistribution to the general public is permitted.** Any person may take unopened Substrate
+product obtained under limb (a) and give it to anyone else, including outside the eligible population.
+No written consent is required. The protocol is openly licensed and the product is given away; gating
+its onward movement would contradict objects clause (c).
+
+**Commercial resale is prohibited.** Substrate product must not be sold, or supplied in exchange for
+payment of any kind, by Substrate, a partner, or any third party. This protects two things that resale
+would destroy:
+
+- **Traceability.** Every unit carries a batch code tied to a Certificate of Analysis. Product entering
+  commerce without that chain cannot be traced if an adverse event needs investigating.
+- **The evidence claim.** A product sold at a price carries an implied claim Substrate has not graded.
+  The published grades attach to specific batches, not to a shopping cart.
+
+Members of the public distributing Substrate product are not partners, not recipients, and are not
+subject to these rules. They are doing the thing the objects clause exists to enable.
 
 ## Stock reconciliation
 

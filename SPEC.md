@@ -2,9 +2,14 @@
 
 ## Objective
 
-Build Substrate CIC to operational readiness for a £500 pilot of evidence-based supplement distribution to homeless populations in the UK. The pilot validates: bulk procurement at cost target, distribution through partner shelters, recipient uptake, and adverse event tracking — without compromising recipient privacy.
+Build Substrate CIC to operational readiness on two fronts:
 
-**Success:** The CIC is filed, the first partner MOU is signed, the pilot kit is procured and distributed, and a de-identified outcome report is published. All within 8 weeks of project start.
+1. **Targeted supply** — a £500 pilot of evidence-based supplement distribution to homeless populations in the UK, validating bulk procurement at cost target, distribution through partner shelters, recipient uptake, and adverse event tracking, without compromising recipient privacy.
+2. **Public education** — published, free, plain-language guidance on evidence-based nutrition, biohacking, and longevity interventions for a general public with no relationship to any beneficiary group, covering what the evidence supports, what it does not, dosing, contraindications, and interactions.
+
+**Success (front 1):** The CIC is filed, the first partner MOU is signed, the pilot kit is procured and distributed, and a de-identified outcome report is published. All within 8 weeks of project start.
+
+**Success (front 2):** The protocol, evidence grading, and contraindications are published as open documentation that anyone can read, reuse, and redistribute without permission or cost — and the evidence base is strong enough that publishing it to the general public is defensible rather than reckless.
 
 ---
 

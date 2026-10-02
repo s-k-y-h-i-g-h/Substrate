@@ -1,14 +1,20 @@
 # Substrate
 
-**The base layer for human flourishing. Open protocols. Evidence-based. Distributed where it's needed.**
+**The base layer for human flourishing. Open protocols. Evidence-based. Accessible to everyone.**
 
 ---
 
 ## What is Substrate?
 
-Substrate is a UK Community Interest Company (CIC) limited by guarantee that funds, specifies, and distributes evidence-based nutritional, longevity, and cognitive supplements to people experiencing homelessness, addiction recovery, or financial exclusion — via partner organisations already embedded in those communities.
+Substrate is a UK Community Interest Company (CIC) limited by guarantee that funds, specifies, and distributes evidence-based nutritional, longevity, and cognitive supplements — and publishes the science behind them.
 
-We don't run shelters. We supply the *protocol* and the *product* to organisations that do.
+**Two audiences, one substrate.**
+
+1. **People who need it most.** Free-of-charge supply to people experiencing homelessness, addiction recovery, or financial exclusion, via partner organisations already embedded in those communities. We don't run shelters. We supply the *protocol* and the *product* to organisations that do.
+
+2. **Everyone else.** Open, free, public education about biohacking and longevity interventions — what the evidence actually supports, what it doesn't, dosing, contraindications, and interactions. The protocol, the evidence grading, and the reasoning behind both are published free whether or not anyone buys anything.
+
+The second audience is not marketing for the first. A general public that understands the evidence can advocate for the first. And a longevity protocol that only ever reaches people with a shelter bed is not a longevity protocol.
 
 ---
 
@@ -16,6 +22,7 @@ We don't run shelters. We supply the *protocol* and the *product* to organisatio
 
 - **Open protocol** — Every formulation, dose, contraindication, and sourcing spec is public, versioned, and auditable
 - **Evidence-first** — Tiered evidence grading (RCT → observational → mechanistic → theoretical) on every ingredient
+- **Accessible to everyone** — No gatekeeping, no membership, no waitlist, no purity ladder. Free to read, free to reuse, free to redistribute
 - **Harm reduction** — Designed for real bodies, real polypharmacy, real constraints. No purity spirals.
 - **Local distribution, global spec** — UK CIC holds IP and fiscal sponsorship. Local partners handle local law and local relationships.
 - **N=1 respect** — Recipients own their data. We track uptake and adverse events anonymised; we don't track identities.
