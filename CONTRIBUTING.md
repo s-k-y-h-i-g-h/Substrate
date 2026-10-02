@@ -68,6 +68,30 @@ Pilot design documents are public. Pilot results that include data on recipients
 - Commit messages: conventional commits format (`feat:`, `fix:`, `docs:`, `chore:`)
 - All commits signed (PGP or SSH)
 
+### Commit signing
+
+Sign with the **project key**, not a personal or device key.
+
+```
+Fingerprint  SHA256:/XPb4JrLYgoISfJx+friDg5xuGFf0WN/0flYHQPXNww
+Public key   substrate_signing.pub (in this repo)
+```
+
+Verify any commit's signer before trusting it:
+
+```sh
+git log --show-signature main
+git verify-commit <sha>
+```
+
+Commit signatures are how Substrate establishes provenance for a public-health
+organisation. A commit signed with a personal key is not provenance — it is just
+an author claim, and it ties an unrelated personal device to this project's history.
+
+Do not substitute a personal SSH key, a phone key, or an agent-host key. If the
+project key is not available on your machine, stop and ask a director; do not sign
+with something else.
+
 ---
 
 ## Code of Conduct
