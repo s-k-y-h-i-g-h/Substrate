@@ -10,15 +10,52 @@ Validate that the Substrate Core 5 stack can be:
 
 ## Budget
 
-| Line | Amount |
-|------|--------|
-| Core 5 sachets (100 people x 30 days, bulk) | ~£140 |
-| Packaging (print sachet labels, boxes) | ~£60 |
-| Partner coordination (travel, meeting time) | ~£100 |
-| AE buffer (medical contingency) | ~£100 |
-| Contingency / admin | ~£50 |
-| **Total target** | **~£450** |
-| **Slippage buffer** | **Up to £500** |
+### ⚠️ The original £500 pilot could not be executed
+
+A previous draft budgeted ~£140 for Core 5 stock for 100 people × 30 days. That implies
+**£0.047 per daily unit** — roughly one-tenth of the cheapest cost target anywhere in this
+repository. The figure appears to have been carried over without checking it against
+`PROTOCOL/SPEC.md`.
+
+Two cost tables currently disagree, and **which is correct is unknown until suppliers are actually
+quoted** — see `PROTOCOL/procurement.md`.
+
+| Source | Core 5 per daily unit |
+|--------|----------------------|
+| `PROTOCOL/SPEC.md` (conservative targets) | £0.70 |
+| `PROTOCOL/procurement.md` (10k bulk estimates) | £0.47 |
+
+**Minimum order quantity is the binding constraint, not per-unit cost.** Buying to MOQ costs
+**~£6,550** whether the pilot serves 10 people or 100, because the MOQs are 10,000 / 10,000 / 5,000 /
+10,000 / 20,000 units. A £500 budget cannot buy this stack at any cohort size.
+
+### Revised pilot design: supplier-funded sample run
+
+The pilot is restructured as a **sample-and-validate run**, not a purchased-stock run.
+
+1. **Request supplier samples and pilot pricing first.** GMP suppliers and distributors routinely
+   donate or discount sample quantities to legitimate new programmes, especially where the applicant
+   brings an open protocol, published evidence grading, and a named research purpose. Substrate has all
+   three. This is the normal first step for a first pilot, not a favour to ask for.
+2. **If samples are granted**, run the full 100-person × 30-day design at near-zero ingredient cost.
+   The rest of the original budget stands.
+3. **If samples are refused**, the pilot requires **~£7,000** for stock at MOQ and cannot be a £500
+   pilot. It must be funded as a separate, larger round — or narrowed to fewer ingredients, since
+   Core 5 at MOQ is what breaks the budget.
+
+### Revised budget
+
+| Line | Sample run | If purchased at MOQ |
+|------|-----------|---------------------|
+| Core 5 ingredients | £0 (supplier samples) | ~£6,550 |
+| Packaging (labels, boxes) | ~£60 | ~£60 |
+| Partner coordination | ~£100 | ~£100 |
+| AE buffer | ~£100 | ~£100 |
+| Contingency / admin | ~£50 | ~£50 |
+| **Total** | **~£310** | **~£6,860** |
+
+**Original £450/£500 target:** achievable only on the sample path. Delete it from any funding
+conversation that has not confirmed samples in writing.
 
 ## Partner
 

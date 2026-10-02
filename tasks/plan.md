@@ -17,13 +17,16 @@ T04: Identify first partner organisation
 T05: Negotiate and sign MOU (depends on T04)
 T06: Request supplier quotes for Core 5 ingredients (depends on T05)
 T07: Negotiate supplier terms / CoA requirements (depends on T06)
-T08: Place order for Core 5 sachets (depends on T07)
-T09: Pack and label pilot kits (depends on T08)
+T06b: Request free samples / pilot pricing (depends on T06) — NEW, runs in parallel with T07
+T08: Place order for Core 5 sachets (CONDITIONAL — only if T06b samples declined)
+T09: Pack and label pilot kits (depends on T07, and T08 only if purchased)
 T10: Conduct partner training session (depends on T09)
 T11: Execute first distribution week (depends on T10)
 T12: Collect uptake data and AE reports (depends on T11)
 T13: Write pilot results (depends on T12)
 T14: Decide Phase 2 scope (depends on T13)
+
+P01-P04: Public education track (objects clause (b)) — no dependencies, parallel from day one
 ```
 
 ---
