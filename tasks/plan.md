@@ -9,7 +9,7 @@ Phase 1 decomposes the success criteria into discrete, trackable tasks. Each tas
 ## Task Dependency Graph
 
 ```
-T-pre02: Seek CIC filing guidance from support contacts (review prior rejection)
+T-pre02: Seek CIC filing guidance from support contacts (pre-filing objects review)
 T01: Choose CIC registered office address
 T02: File Companies House CIC (depends on T-pre02 + T01)
 T03: Open business bank account (depends on T02)
@@ -35,27 +35,36 @@ P01-P04: Public education track (objects clause (b)) — no dependencies, parall
 
 ### T-pre02: Seek CIC filing guidance from support contacts
 
-**Background:** A previous CIC application was rejected. Before re-submitting, get external review of the CIC36 and articles to identify and fix the rejection cause.
+**Background:** Substrate has never been filed. This is a first-time CIC application, so there is no prior
+filing and no prior outcome to review. The objects clause was restructured to add a public-education limb (b)
+and renumber what were (b), (c) and (d). That structure — a poverty-relief object sitting alongside a
+general public-education object — is the hard part of this filing, and it needs Regulator confirmation
+before submission rather than after a refusal.
 
 **Contacts to approach:**
 
 | Contact | Type | Details | Best for |
 |---------|------|---------|----------|
-| **CIC Regulator** | Government regulator | Email: `cicregulator@companieshouse.gov.uk` / Phone: `029 2150 7420` | Pre-submission review of CIC36 + articles; asking why a prior application was rejected |
+| **CIC Regulator** | Government regulator | Email: `cicregulator@companieshouse.gov.uk` / Phone: `029 2150 7420` | Pre-submission review of CIC36 + articles; confirming a general public-education object is acceptable alongside a poverty-relief object |
 | **Companies House Business Support** | Government helpline | Phone: `0303 123 4500` | Step-by-step guidance on the online filing form; not legal advice, but can confirm form correctness |
 | **Norfolk Citizens Advice** | Free local advice | Website: `ncab.org.uk` / Office: 83-87 Pottergate, Norwich | Free confidential advice on business/legal matters; may have CIC formation experience |
 | **New Anglia Growth Hub** | Local business support | Norfolk/Suffolk business support | Free/low-cost CIC workshops or signposting to local social-enterprise advisors |
 | **Low-cost formation agent** | Paid service | Coddan / 1stchoice-formations / Rapid Formations (~£100-£200) | Full handling of filing; knows exact format the Regulator expects |
 
 **Recommended approach:**
-1. Contact CIC Regulator first — email them explaining you previously had a CIC application rejected and ask for guidance on what to fix before re-submitting.
+1. Contact CIC Regulator first — email them explaining you are filing a **new** CIC application whose objects
+   combine targeted supply with general public education, and ask what form they require and how they assess
+   the community-interest test for that combination. Do **not** describe this as a re-submission: Substrate has
+   no prior filing, and saying otherwise misstates the application's history to the regulator.
 2. If no response within 5 working days, call Companies House Business Support.
 3. If still unresolved, contact Norfolk Citizens Advice for free local guidance.
 4. As a fallback, engage a low-cost formation agent to handle filing and ensure format compliance.
 
-**Acceptance:** Either (a) prior rejection cause identified and fixed in docs, or (b) filing delegated to formation agent with confirmation they've reviewed the application.
+**Acceptance:** Either (a) the Regulator or a formation agent confirms the objects clause and the
+community-interest test are acceptable in their drafted form, or (b) filing delegated to a formation agent
+with written confirmation they have reviewed the application.
 **Verify:** Email/notes from CIC Regulator, or formation agent confirmation, or Citizens Advice case reference.
-**Files:** `GOVERNANCE/CIC36_objects_clause.md`, `GOVERNANCE/articles_clauses.md` (updated if rejection cause requires changes)
+**Files:** `GOVERNANCE/CIC36_objects_clause.md`, `GOVERNANCE/articles_clauses.md` (updated per Regulator or agent feedback)
 **Dependencies:** T01 (registered office must be confirmed before filing guidance, as it appears in the docs)
 
 ---

@@ -44,8 +44,8 @@ To do all such other lawful things as are incidental or conducive to the attainm
 ## ⚠️ Filing flag — read before submitting
 
 The objects clause has been **restructured** to add a public-education limb (b) and to renumber what were
-(b), (c) and (d). Any prior rejection of a CIC application may have been caused by clause wording, and
-renumbering compounds that risk. Before filing:
+(b), (c) and (d). Substrate has no prior CIC filing, so the risk here is an untested structure rather than a
+repeat of a known cause. Before filing:
 
 1. Confirm with the CIC Regulator (`cicregulator@companieshouse.gov.uk` / 029 2150 7420) that a general
    public-education object is acceptable alongside a poverty-relief object, and in what form.
@@ -53,8 +53,8 @@ renumbering compounds that risk. Before filing:
    community-interest test without a defined community in the articles. **This is the load-bearing
    question in the whole filing.** If it fails, the mitigation is to define "community" in the articles
    as "the people of the United Kingdom" rather than to narrow the objects clause.
-3. Confirm the prior rejection reason. No record of it is held in this repository, and re-filing blind
-   repeats the cycle.
+3. Confirm the Regulator will review the drafted objects clause and articles before submission. This is a
+   first filing, so there is no prior outcome to reconcile — the questions above are the whole risk.
 
 **Status: Draft — not approved for filing. Requires Regulator or formation-agent review.**
 

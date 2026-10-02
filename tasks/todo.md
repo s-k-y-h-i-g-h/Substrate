@@ -7,11 +7,11 @@ All tasks tracked here. Mark [OK] when complete.
 ## Pre-launch (Admin)
 
 - [ ] **T01** Choose CIC registered office address
-- [ ] **T-pre02** Seek CIC filing guidance from support contacts (prior rejection review)
-  - NOTE: no record of the prior rejection reason is held anywhere in this repo. Obtain the original
-    rejection email/text from Companies House correspondence before refiling
+- [ ] **T-pre02** Seek CIC filing guidance from support contacts (pre-filing objects review)
+  - NOTE: Substrate has never been filed. There is no prior application and no rejection to explain, so do
+    not describe this to the CIC Regulator as a re-submission — it is a first-time filing
   - NOTE: objects clause has been restructured (public-education limb added, limbs renumbered). Do not
-    refile without Regulator or agent review — see GOVERNANCE/CIC36_objects_clause.md
+    submit without Regulator or agent review — see GOVERNANCE/CIC36_objects_clause.md
   - NOTE: registered office appears to be already chosen (42a High Street, Downham Market, Norfolk,
     PE38 9HH) and is committed in the CIC36 objects clause. Confirm before treating T01 as open
 - [ ] **T02** File Companies House CIC
